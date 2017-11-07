@@ -1,0 +1,8 @@
+entites\Developer.class
+entites\Game.class
+entites\Title.class
+entites\Genre.class
+facade\TitleFacade.class
+facade\DeveloperFacade.class
+facade\GenreFacade.class
+facade\GameFacade.class
