@@ -46,7 +46,6 @@ public class Bean implements Serializable {
 	
 	public void addGame() {
 		Game g = new Game(title, genre, developer, id);
-		System.out.println(id);
 		gameEJB.create(g);
 		games = gameEJB.findAll();
 	}
